@@ -1,0 +1,13 @@
+{
+  "name": "only2webpackconfig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start:client": "cd client && npm run dev",
+	"start:server": "cd server && node app.js",
+	"start": "concurrently \"npm run start:server\" \"npm run start:client\" "
+  },
+  "author": "",
+  "license": "ISC"
+}
