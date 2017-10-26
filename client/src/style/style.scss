@@ -1,0 +1,11 @@
+.no-name{
+	text-align: center;
+	padding: 30px;
+	font-size: 23px;
+	& button {
+		font-size: 20px;
+		padding: 5px 25px;
+		margin-top: 20px;
+		border-radius: 0;
+	}
+}
