@@ -1,6 +1,11 @@
 {
    "version": "1.0.0",
    "main": "webpack.config.js",
+   "babel": {
+     "presets": [
+        "env", "react", "stage-0"
+     ]
+   },
    "scripts": {
       "build": "webpack",
       "dev": "webpack-dev-server --progress --colors"
